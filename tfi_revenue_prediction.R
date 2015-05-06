@@ -1,8 +1,7 @@
 library(Boruta)
 library(caret)
 library(data.table)
-setwd("~/self_development/kaggle/tfi")
-
+setwd("~/path/to/folder/with/train_test/files")
 train <- read.csv("train.csv")
 test  <- read.csv("test.csv")
 
